@@ -1,0 +1,13 @@
+import numpy as np
+A = np.array([10, 20, 30, 40, 50])
+B = np.array([5, 4, 3, 2, 1])
+print("Sum :",A+B)
+print("Minus :",A-B)
+print("Multiply :",A*B)
+print("Divide :",A/B)
+print("Minimum :",A.min())
+print("Maximum :",A.max())
+print("Mean :",A.mean())
+print("The dot product of A and B :",np.dot(A,B))
+reshaped_A = A.reshape( 5 , 1)
+print("Reshape array A into a 5x1 :","\n",reshaped_A)
